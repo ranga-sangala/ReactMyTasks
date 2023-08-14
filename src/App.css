@@ -1,0 +1,119 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.bg-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.input {
+  width: 350px;
+  margin: 5px 2px;
+  padding: 5px 10px;
+}
+
+.main-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.create-task-container {
+  display: flex;
+  flex-direction: column;
+  background-color: #131213;
+  width: 400px;
+  height: 600px;
+  padding: 30px 10px;
+}
+.heading {
+  align-self: center;
+  color: #f3aa4e;
+  font-family: 'Roboto';
+}
+
+.label {
+  color: #f1f5f9;
+  font-family: 'Roboto';
+}
+.display-container {
+  background-color: #000000;
+  height: 600px;
+  color: white;
+  width: 800px;
+  padding: 30px 10px;
+}
+
+.input-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  margin: 20px;
+}
+
+.submit-btn {
+  align-self: center;
+  margin: 30px 5px;
+  padding: 10px 30px;
+  border-radius: 10px;
+  background-color: #f3aa4e;
+  color: #ffffff;
+  border: none;
+  font-family: 'Roboto';
+}
+
+.tags-container {
+  display: flex;
+  flex-direction: column;
+}
+.tags {
+  display: flex;
+}
+.tag-name {
+  list-style-type: none;
+  margin: 15px;
+  border: 1px solid #f3aa4e;
+  padding: 10px 15px;
+  border-radius: 20px;
+}
+
+.sub-heading {
+  font-family: 'Roboto';
+}
+.task-info {
+  display: flex;
+  justify-content: space-between;
+  list-style-type: none;
+  margin-top: 5px;
+  background-color: #1a171d;
+  padding: 5px 15px;
+  width: 600px;
+}
+
+.tasks-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-self: center;
+  font-family: 'Roboto';
+}
+
+.active-tab {
+  list-style-type: none;
+  margin: 15px;
+  border: 1px solid #f3aa4e;
+  padding: 10px 15px;
+  border-radius: 20px;
+  background-color: #f3aa4e;
+}
